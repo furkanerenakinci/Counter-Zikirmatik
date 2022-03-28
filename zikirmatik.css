@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@300&display=swap'); /*font-family: 'M PLUS Code Latin', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap'); /*font-family: 'Courgette', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap'); /*font-family: 'Josefin Sans', sans-serif;*/
+
+body{
+    background-image: url("sabir.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-color: rgba(0, 0, 0, 0.39);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sayi{
+    font-family: 'M PLUS Code Latin', sans-serif;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+}
+
+.button {
+    font-family: 'M PLUS Code Latin', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+h4{
+    font-family: 'Courgette', cursive;        
+    font-size: 17px;
+    color: white;
+    font-weight: lighter;
+}
